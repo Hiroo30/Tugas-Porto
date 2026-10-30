@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eksa Supriyadi | Portofolio</title>
+  <meta name="description" content="Portofolio Eksa Supriyadi, mahasiswa Teknik Informatika yang tertarik pada web dan game development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="layout">
+
+    <!-- Kolom kiri: foto -->
+    <aside class="side">
+      <figure class="foto">
+        <img src="foto/cyrene.jpg" alt="Foto Eksa Supriyadi" fetchpriority="high">
+      </figure>
+      <nav class="menu" aria-label="Navigasi utama">
+        <a href="#home">Home</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#proyek">Proyek</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </aside>
+
+    <!-- Kolom kanan: konten -->
+    <main class="content">
+
+      <section id="home" class="hero">
+        <p class="kecil">Halo, saya</p>
+        <h1>Eksa<br>Supriyadi</h1>
+        <p class="sub">Mahasiswa Teknik Informatika yang suka ngulik apa ajahhh.</p>
+        <a href="#proyek" class="btn">Lihat proyek</a>
+      </section>
+
+      <section id="tentang" class="blok">
+        <h2>Tentang</h2>
+        <p>Mahasiswa Teknik Informatika yang tertarik di pengembangan website dan game development (soon). Sudah ngerjain beberapa proyek pribadi maupun kolaborasi, dan senang nyobain teknologi baru buat dipakai di proyek kreatif.</p>
+        <ul class="skills" aria-label="Skill">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Java</li>
+          <li>Python</li>
+          <li>Node.js</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+
+      <section id="proyek" class="blok">
+        <h2>Proyek</h2>
+        <div class="galeri">
+
+          <figure class="foto-proyek" tabindex="0">
+            <img src="foto/img-proyek1.jpeg" alt="Website Mandiri" loading="lazy">
+            <figcaption>
+              <h3>Website Mandiri</h3>
+              <p>Membuat website untuk membantu project project mandiri.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="foto-proyek" tabindex="0">
+            <img src="foto/img-proyek2.jpeg" alt="Proyek Master" loading="lazy">
+            <figcaption>
+              <h3>Proyek Immortal</h3>
+              <p>Pernah mencapai Mythical Immortal di Mobile Legends.</p>
+            </figcaption>
+          </figure>
+
+        </div>
+      </section>
+
+      <section id="kontak" class="blok">
+        <h2>Kontak</h2>
+        <p>Boleh hubungi saya lewat:</p>
+        <p class="kontak">
+          <a href="mailto:eksasupriyadi20@gmail.com">eksasupriyadi20@gmail.com</a>
+          <a href="https://github.com/Hiroo30" target="_blank" rel="noopener">github.com/Hiroo30</a>
+        </p>
+      </section>
+
+      <footer>
+        <p>© 2026 Eksa Supriyadi</p>
+      </footer>
+
+    </main>
+  </div>
+
+</body>
+</html>
